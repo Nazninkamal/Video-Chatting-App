@@ -57,6 +57,7 @@ function App() {
 				name: name
 			})
 		})
+		
 		peer.on("stream", (stream) => {
 			
 				userVideo.current.srcObject = stream
